@@ -1,0 +1,14 @@
+dartdoc:
+  header: ['doc/header.html']
+  categories:
+    "APIs":
+      markdown: doc/apis.md
+    "Features":
+      markdown: doc/features.md
+  categoryOrder:
+    - "APIs"
+    - "Features"
+  showUndocumentedCategories: true
+  ignore:
+    - broken-link
+    - missing-from-search-index
